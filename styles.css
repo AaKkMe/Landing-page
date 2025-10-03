@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header, .hero{
+    background-color: #1F2937;
+    color: white;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.intro{
+    font-size: 18px;
+}
+
+.hero{
+    display: flex;
+}
+
+.hero-info{
+    width: 400px;
+}
+
+.hero-image img{
+    width: 500px;
+    height: auto;
+    
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right {
+    display: flex;
+    gap: 10px;
+}
+
+.left img {
+    width: 20px;
+    height: auto;
+    border-radius: 50%;
+}
+
+button{
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    border: #3882F6;
+    width: 60px;
+    height: 30px;
+}
+
+.content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.content .card p {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+.card img{
+    width: 100px;
+    height: auto;
+}
