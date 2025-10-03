@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
 * {
     font-family: 'Roboto', sans-serif;
     
@@ -80,9 +86,10 @@ button{
 
 .card img{
     width: 200px;
-    height: auto;
+    height: 250px;
     border: solid #3882F6;
     border-radius: 10px;
+    
 }
 
 .card {
@@ -93,7 +100,7 @@ button{
     /* border-width: 0 1px; */
     width: 200px;
     height: auto;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .review{
@@ -127,4 +134,10 @@ button{
 }
 
 .hero{
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
 }
